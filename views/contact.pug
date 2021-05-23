@@ -1,0 +1,36 @@
+extends base.pug
+block script
+    script(src='/public/index.js')
+block style 
+    style 
+        include ../public/style.css
+        include ../public/contact.css
+
+block content
+    p.add Address 
+    .addr 
+        .adr1 
+            p.mainadd Ghaziabad Branch
+            p 2nd & 3rd Floor, Plot No. 9,
+            p Kaushambi Commercial Area,
+            p Ghaziabad, Uttar Pradesh 201014
+            p Phone no. 9999994636, 9999998858
+        .adr2 
+            p.mainadd Mayur Vihar Branch
+            p A-5/163, Third & Fourth Floor,
+            p Above First Cry, Mayur Vihar Phase 1,
+            p New Delhi 110091
+            p Phone no. 9999994636, 9999998858
+        .adr3 
+            p.mainadd Satya Niketan Branch
+            p 282,Second Floor, Satya Niketan,
+            p Opposite Venkateshwara College,
+            p New Delhi, 110021
+            p Phone no. 9999994636, 9999998858    
+        .adr4 
+            p.mainadd Gurugram Branch
+            p 6th Floor, Ambience Mall,
+            p NH-8, Ambience Island, DLF Phase 3,
+            p Sector 24, Ambience, Gurugram,
+            p Haryana 122010
+            p Phone no. 9999994636, 9999998858

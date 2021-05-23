@@ -1,0 +1,75 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Form Output
+        style.
+            p{
+            font-size: 20px;
+            color: white;
+            }
+            p.head{
+            font-size: 30px;
+            color: white;
+            text-shadow:2px 2px 9px whitesmoke;
+            }
+            body{
+                padding:2px 12px
+            }
+            span.int{
+            color: blueviolet;
+
+            }
+            button{
+                margin:6px;
+                box-radius:5px;
+                background-color:lightgreen;
+            }
+            button a{
+                text-decoration:none;
+                padding:4px 8px;
+                color:black;
+                font-weight:900;
+            }
+            body{
+                background:no-repeat url(../public/india.jpg) rgb(0, 0, 0,0.99);
+                //- background-size: cover;
+                background-attachment:fixed;
+                margin: 0px;
+                background-size:30%;
+                background-position:80% 75% ;
+
+            }
+    body 
+        p.head Kindly Check Data entered by you
+        //- p First Name  : #[span.int #{data.firstN}]
+        //- p Last Name  :#[span.int #{data.lastN}]
+        //- p Email  : #[span.int #{data.email}]
+        //- p DOB  :#[span.int #{data.dob}]
+        //- p Address  :#[span.int #{data.add}]
+        //- p Gender  :#[span.int #{data.gender}]
+        //- p First Contact  : #[span.int #{data.contact}]
+        //- p Second Contact  :#[span.int #{data.contact2}]
+        //- p Mode Of Payment  : #[span.int #{data.cardtype}] 
+        //- p Card No  : #[span.int #{data.cardno}]
+        //- P CVV  : #[span.int #{data.cvv}]
+        //- p Expiration Date  : #[span.int #{data.exdate}]
+
+        //- 2nd way
+        p First Name  : #[span.int #{data.firstname}]
+        p Last Name  :#[span.int #{data.lastname}]
+        p Email  : #[span.int #{data.email}]
+        p DOB  :#[span.int #{data.dob}]
+        p Address  :#[span.int #{data.add}]
+        p Gender  :#[span.int #{data.gender}]
+        p First Contact  : #[span.int #{data.contact}]
+        p Second Contact  :#[span.int #{data.contact2}]
+        p Mode Of Payment  : #[span.int #{data.cardtype}] 
+        p Card No  : #[span.int #{data.cardno}]
+        P CVV  : #[span.int #{data.cvv}]
+        p Expiration Date  : #[span.int #{data.ex}]
+
+        button #[a(href="/registration") Edit]
+        button #[a(href="/showconfirm") Confirm]

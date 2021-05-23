@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    block title
+    block script
+    block style
+  body
+    //- block nav
+    nav#navbar.navi
+        .mainlogo 
+            .logos
+                span.mda MAestro Dance Academy       
+                span.logo Have feet Will Dance
+                //- span.logpic
+            img(src="../public/facebook.png", alt="")
+            img(src="../public/insta.png", alt="")
+            img(src="../public/twitter.png", alt="")
+        ul 
+            li #[a(href="/") HOME]
+            li #[a(href="/services") SERVICES ]
+            li #[a(href="/registration") REGISTRATION ]
+            li #[a(href="/about") ABOUT]
+            li #[a(href="/contact") CONTACT US ]
+    block info
+    block content
+    block foot
+      footer #[div copyright &copy MAestro Dance Academy | All Rights Reserved]; 
+    

@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+video{
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* right: 10vw; */
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.9;
+}
+h1{
+    color: rgb(55, 169, 17);
+    /* border: 2px solid rgba(56, 134, 186, 0.421); */
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px;
+    text-shadow: 2px 2px 5px green;
+    /* box-shadow: 1px 1px 10px rgb(106, 181, 178); */
+}
+h3{
+    text-shadow: 1px 1px 1px rgb(6, 35, 6);
+    color: rgb(82, 182, 48);
+    margin: 8px 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    /* background-color: white; */
+}
+div.wrapper{
+    width: 535px;
+    border: 2px solid rgba(0, 0, 0, 0.571);
+    box-shadow: 4px 4px 18px rgb(25, 24, 24);
+    padding: 28px;
+}
+div.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span.gender,span.dob{
+    width: 49%;
+    text-align: left;
+}
+div.ingen{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid rgba(42, 38, 38, 0.489);
+    align-items: center;
+}
+.male{
+    width: 50%;
+    padding: 9px 0px;
+}
+.fem{
+    /* background-color: rgb(82, 182, 48); */
+    width: 50%;
+    padding: 9px 0px;
+}
+
+.dob input[type="date"]{
+    width:100%;
+    /* text-align: center; */
+    padding: 7px 0px;
+    font-size: 15px;
+}
+.gender label{
+    font-size: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    /* height: 40px; */
+    justify-content: space-between;
+}
+.firstname,.lastname,.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 49%;
+    margin: 4px 0px;
+    background-color: rgba(128, 128, 128, 0.7);
+}
+div.email{
+    width: 100%;
+}
+.firstname img , .lastname img,.email img{
+    width: 22px;
+    height: 25px;
+    position: relative;
+    left: 0px;
+}
+.input input[type="text"]
+{
+    padding: 10px 0px;
+    width: 100%
+}
+.email input[type="email"]{
+    padding: 10px 0px;
+    width: 100%;
+}
+div.img{
+    height: 38px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstname:hover,.lastname:hover,.email:hover{
+    border: 1px solid rgb(113, 213, 196) ;
+    background-color: rgb(113, 213, 196);
+}
+.firstname input:hover,.lastname input:hover,.email input:hover{
+    border: none;
+}
+.add textarea { 
+    width: 100%;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cont input[type="number"]{
+    width: 49%;
+    padding: 9px 4px;
+}
+div.flex2{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+.cardno input[type="number"],.cvv input[type="number"],#cardtype option{
+    width: 95%;
+    padding: 9px 0px;
+}
+.cardno input[type="number"]{
+    margin-left: 5px;
+}
+.ex input[type="date"]{
+    padding: 7px 0px;
+}
+.submit input[type="submit"]{
+    width: 100%;
+    background-color: rgb(82, 182, 48);
+    padding: 10px 0px;
+    margin: 19px 0px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submit input[type="submit"]:hover{
+    background-color: green;
+}
+
+/* input[type="radio"]{
+    font-size: 90px;
+    font-size: 900;
+} */

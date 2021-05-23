@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body{
+    background:no-repeat url(../public/ballet_dance.jpg) rgb(0, 0, 0,0.99);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    color: rgb(4, 2, 10);
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 60px;
+}
+header div#quote{
+    font-family: 'Girassol', cursive;
+    font-size: 40px;
+    text-align: center;
+    color:blanchedalmond;
+    position: relative;
+    bottom: 5vh;
+    text-shadow: 10px 10px 1px rgb(8, 7, 7);
+}
+.info{
+    margin: 3vh 0vh;
+    font-size: 25px;
+    color:rgb(111, 35, 182) ;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(111, 35, 182) ;
+}
+.info p{
+    font-size: 15px;
+    color: rgba(204, 200, 200, 0.714);
+    text-shadow: none;
+}
+.mainlogo{
+    background-color: black;
+    color: blanchedalmond;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    position: relative;
+    left: 85vw;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+#navbar span.mda{
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+    padding:0vh 2vw;
+    margin: 0px;
+}
+#navbar span.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px 9vw;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px;
+    width: 96vw;
+    margin: 0px;
+    align-items: center;
+    box-sizing: content-box;
+    list-style: none;
+    background-color: white;
+    color:rgba(0, 0, 0, 0.81);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+li a{
+    text-decoration-line: none;
+    color: rgb(7, 2, 12);
+    text-shadow: 1px 1px 1px rgb(7, 2, 12);
+    padding: 0px 20px;
+}
+.goals{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.goal1,.goal2,.goal3,.goal4{
+
+    margin: 1vw 3vw;
+    color: darkblue;
+    background-color: rgb(243, 239, 239);
+    font-size: 15px;
+    border-radius: 9px;
+    width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.goal1 p.mmy,.goal2 p.mmy,.goal3 p.mmy,.goal4 p.mmy{
+    padding: 10px;
+}
+
+.goal1 p.obj,.goal2 p.obj,.goal3 p.obj,.goal4 p.obj{
+    background-color: rgb(7, 2, 12);
+    color: cornsilk;
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px;
+}
+footer div{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 13px 0px;
+    position: relative;
+    top: 19vh;}
+

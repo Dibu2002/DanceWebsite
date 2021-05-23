@@ -1,0 +1,26 @@
+extends base.pug
+block script
+    script(src='/public/index.js')
+block style 
+    style 
+        include ../public/style.css
+
+block info 
+    div.info
+        |   Online Dance Classes
+        p MAestro has brought another unthought idea of continuing the process of training and learning several dance forms that too in online dance classes. In this period of lockdown when everyone is locked at their homes and when we all are missing our dance pieces of training, MAestro has brought this idea of virtual dance classes.
+    .goals 
+        .goal1 #[p.obj Objective:1] 
+            p.mmy Dance studio with warm,supportive atmosphere 
+        .goal2 #[p.obj Objective:2] 
+            p.mmy Dance training for students at all levels, from beginner to advanced 
+        .goal3 #[p.obj Objective:3] 
+            p.mmy Provide a social and entertainment forum for people with diverse interests 
+        .goal4 #[p.obj Objective:4] 
+            p.mmy Maintins a non-smoking and alcohol free environment 
+       
+block content
+   header 
+        div#quote  " Nobody cares if you cant dance. Great dancers are great because of their passion "
+
+

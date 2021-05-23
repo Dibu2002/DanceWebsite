@@ -1,0 +1,106 @@
+.ins{
+    display: grid;
+    grid-template-columns: repeat(4,23vw);
+    margin: 6px;
+    grid-gap: 12px;
+    /* box-sizing: border-box; */
+}
+p.name{
+    color: rgb(123, 104, 231);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+p.di{
+    padding: 10px;
+    /* background-color: white; */
+    color: blueviolet;
+    text-shadow: 2px 2px 9px black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(111, 35, 182) ;
+    /* font-weight: 900; */
+}
+.ins1,.ins2,.ins3,.ins4,.ins5,.ins6,.ins7,.ins8,.ins9{
+    border: 1px solid rgb(130, 104, 104);
+    height: 90%;
+    padding: 7px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 9px;
+    transition: all 0.2s ease-in;
+}
+.ins1:hover,.ins2:hover,.ins3:hover,.ins4:hover,.ins5:hover,.ins6:hover,.ins7:hover,.ins8:hover,.ins9:hover{
+    transform: scale(1.2);
+}
+.ins1 img,.ins2 img,.ins3 img,.ins4 img,.ins5 img,.ins6 img,.ins7 img,.ins8 img,.ins9 img{
+    width: 100%;
+    height: 25%;
+
+}
+.ins1{
+    grid-column-start: 1;
+    
+}
+.ins1 img{
+    position: relative;
+    left: 0vw;
+
+}
+.ins2{
+    grid-column-start: 2;
+}
+.ins2 img{
+    position: relative;
+    left: 0vw;
+}
+.ins3{
+    grid-column-start: 3;
+}
+.ins3 img{
+    position: relative;
+    left: 0vw;
+}
+.ins4{
+    grid-column-start: 4;
+}
+.ins4 img{
+    position: relative;
+    left: 0vw;
+}
+.ins5{
+    grid-column-start: 1;
+}
+.ins5 img{
+    position: relative;
+    left: 0vw;
+}
+.ins6{
+    grid-column-start: 2;
+}
+.ins6 img{
+    position: relative;
+    left: 0vw;
+}
+.ins7{
+    grid-column-start: 3;
+}
+.ins7 img{
+    position: relative;
+    left: 0vw;
+}
+.ins8{
+    grid-column-start: 4;
+}
+.ins8 img{
+    position: relative;
+    left: 0vw;
+}
+.ins9{
+    grid-column-start: 1;
+}
+.ins9 img{
+    position: relative;
+    left: 0vw;
+}
+

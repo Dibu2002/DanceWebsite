@@ -1,0 +1,72 @@
+extends base.pug
+block script
+    script(src='../public/index.js')
+block title 
+    title Registration
+block style 
+    style 
+        include ../public/style.css
+        include ../public/style1.css
+
+block content
+    //- video(src="../public/dance.mp4" autoplay muted loop) 
+    .wrapper
+        h1 Register here
+        form(method='post', action='/handleForm')
+            h3 Account
+            .input
+                .firstname
+                    .img
+                        img(src='../public/user-icon.svg' alt='')
+                    input(type='text' name='firstname' placeholder='First Name' required='')
+                .lastname
+                    .img
+                        img(src='../public/user-icon.svg' alt='')
+                    input(type='text' name='lastname' placeholder='Last Name')
+            .email
+                .img
+                    img(src='../public/email.png' alt='')
+                input(type='email' name='email' id='' placeholder='Email Address' required='')
+            .flex1
+                span.dob
+                    h3 Date of Birth
+                    input(type='date' name='dob' id='' required='')
+                span.gender
+                    h3 Gender
+                    .ingen
+                        .male
+                            input#male(type='radio' name='gender' value='Male' required='' onclick="male1()")
+                            label(for='male' class='label') &nbsp; Male 
+                        .fem
+                            input#female(type='radio' name='gender' value='Female' required='' onclick="female1()")
+                            label(for='male') &nbsp; Female 
+            .add
+                h3 Address
+                textarea#add(name='add' rows='7')
+            .contact
+                h3 Contact Details
+                .cont
+                    input(type='number' name='contact' id='' placeholder='First Number' )
+                    input(type='number' name='contact2' id='' placeholder='Alternative contact no(other than above contact)')
+            h3 Payment Details
+            .pay
+                .flex2
+                    select#cardtype(name='cardtype' required=''  )
+                        option(value='' ) Select an option
+                        option(value='GPay' id='GPay' onclick='bg()') GPay
+                        option(value='RuPay' onclick='bg()') RuPay
+                        option(value='Debit Card' onclick='bg()') Debit Card
+                    .cardno
+                        input(type='number' name='cardno' id='' placeholder='Card Number' required='')
+                    .cvv
+                        input(type='number' name='CVV' id='' placeholder='CVV' required='')
+            .ex
+                h3 Expiration Date
+                input(type='date' name='ex' id='' )
+            .submit
+                input(type='submit' value='Pay Now', title="pay" )
+    
+    //- script(src='../public/index.js')
+
+block foot 
+    //- footer #[div copyright &copy; MAestro Dance Academy | All Rights Reserved] 

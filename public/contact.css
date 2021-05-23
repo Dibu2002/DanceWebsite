@@ -1,0 +1,26 @@
+.add{
+    padding: 10px;
+    color: blueviolet;
+    /* text-shadow: 2px 2px 9px black; */
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(111, 35, 182) ;
+
+}
+.addr{
+    display: flex;
+    flex-direction: column;
+}
+.adr1,.adr2,.adr3,.adr4{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    font-size: 13px;
+    
+}
+.mainadd{
+    color:red ;
+    font-size: 20px;
+
+}
