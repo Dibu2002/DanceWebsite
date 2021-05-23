@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 body{
-    background:no-repeat url(../public/ballet_dance.jpg) rgb(0, 0, 0,0.99);
+    background:no-repeat url(https://dibu2002.github.io/DanceWebsite/public/ballet_dance.jpg) rgb(0, 0, 0,0.99);
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
