@@ -1,6 +1,6 @@
 extends base.pug
 block script
-    script(src='../public/index.js')
+    script(src='https://dibu2002.github.io/DanceWebsite/public/index.js')
 block title 
     title Registration
 block style 
@@ -9,10 +9,10 @@ block style
         include ../public/style1.css
 
 block content
-    //- video(src="../public/dance.mp4" autoplay muted loop) 
+    video(src="../public/dance.mp4" autoplay muted loop) 
     .wrapper
         h1 Register here
-        form(method='post', action='/handleForm')
+        form(method='post', action='https://dibu2002.github.io/DanceWebsite/handleForm')
             h3 Account
             .input
                 .firstname
